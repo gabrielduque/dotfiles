@@ -2,7 +2,7 @@
 # The dotfile initial
 
 # Mac OS X Darwin
-_darwin_os() {
+_darwin_os(api)_darwin_os {
   if [ ! -f ~/.bash_profile ] then
     curl -Lo ~/.git-completion.bash https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
     source .git-completion.bash
