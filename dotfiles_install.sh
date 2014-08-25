@@ -17,13 +17,13 @@ _darwin_os(api)_darwin_os {
 }
 
 # GNU Linux
-_linux_os() {
+_linux_os(api)_linix_os {
   echo "Linux"
   _dotfile
 }
 
 # Common functions
-_dotfile() {
+_dotfile(api)_dotfile {
   if [ ! -f ~/.bashrc ] then
     echo "Creating symbolyc link for .bashrc"
     ln -s ~/.bash/.bashrc ~/.bashrc
