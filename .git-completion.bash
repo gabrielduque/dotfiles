@@ -30,7 +30,7 @@ esac
 
 # __gitdir accepts 0 or 1 arguments (i.e., location)
 # returns location of .git repo
-__gitdir ()
+__gitdir (git_var)
 {
 	# Note: this function is duplicated in git-prompt.sh
 	# When updating it, make sure you update the other one to match.
