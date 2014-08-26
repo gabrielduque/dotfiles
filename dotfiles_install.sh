@@ -17,7 +17,7 @@ _darwin_os(api)_darwin_os {
 }
 
 # GNU Linux
-_linux_os(api)_linix_os {
+_linux_os(api)_linux_os {
   echo "Linux"
   _dotfile
 }
