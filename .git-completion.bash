@@ -2,7 +2,7 @@
 #
 # bash/zsh completion support for core Git.
 #
-# Copyright (C) 2006,2007 Shawn O. Pearce <spearce@spearce.org>
+# Copyright (C) 2006,2007,2014 Shawn O. Pearce <spearce@spearce.org>
 # Conceptually based on gitcompletion (http://gitweb.hawaga.org.uk/).
 # Distributed under the GNU General Public License, version 2.0.
 #
