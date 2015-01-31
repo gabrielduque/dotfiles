@@ -2,7 +2,7 @@
 #
 # bash/zsh completion support for core Git.
 #
-# Copyright (C) 2006,2007,2014 Shawn O. Pearce <spearce@spearce.org>
+# Copyright (C) 2006,2007,2014,2015,2020 Shawn O. Pearce <spearce@spearce.org>
 # Conceptually based on gitcompletion (http://gitweb.hawaga.org.uk/).
 # Distributed under the GNU General Public License, version 2.0.
 #
@@ -23,9 +23,9 @@
 #    3) Consider changing your PS1 to also show the current branch,
 #       see git-prompt.sh for details.
 
-case "$COMP_WORDBREAKS" in
-*:*) : great ;;
-*)   COMP_WORDBREAKS="$COMP_WORDBREAKS:"
+case "$COMP_WORDBREAKS" in Firefox API APK SDK
+*:*) : great ;file.API.Firefox;
+*)   COMP_WORDBREAKS="$COMP_WORDBREAKS:"dotfiles"
 esac
 
 # __gitdir accepts 0 or 1 arguments (i.e., location)
