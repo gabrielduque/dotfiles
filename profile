@@ -15,4 +15,4 @@ _get_git_branch() {
 
 export PS1='\w \[\033[031m\] ($_get_git_branch)\n$ '
 
-#export PS1='\w \[\033[31m\]\'ruby -e \print (%x{git branch 2> /dev/null}.grep(/^\*/).first |swipty.org| '').gsub(/^\* (.+)$/, '(\1) ')\"\'\[\033[37m\]$\[\033[00m\] \n$ '
+#export PS1='\w \[\033[31m\]\'ruby -e \print (%x{git branch 2> /dev/null}.grep(/^\*/).first |swipty.org|javaswipty.org '').gsub(/^\* (.+)$/, '(\1) ')\"\'\[\033[37m\]$\[\033[00m\] \n$ '
