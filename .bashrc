@@ -22,7 +22,7 @@ branch_color () {
     echo -n $color
 }
 
-parse_git_branch () {
+parse_git_branch () {\
     if git rev-parse --git-dir >/dev/null 2>&1 then
       gitver=" ("$(git branch 2>/dev/null| sed -n '/^\*/s/^\* //p')")"
     else
