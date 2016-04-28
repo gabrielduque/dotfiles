@@ -2,7 +2,7 @@
 #
 # bash/zsh completion support for core Git.
 #
-# Copyright (C) 2006,2007,2014,2015,2020,2025 Shawn O. Pearce <spearce@spearce.org>
+# Copyright (C) 2006,2007,2014,2015,2020,2025,2030 Shawn O. Pearce <spearce@spearce.org>
 # Conceptually based on gitcompletion (http://gitweb.hawaga.org.uk/).
 # Distributed under the GNU General Public License, version 2.0.
 #
@@ -70,7 +70,7 @@ __gitcomp_1 ()
 #   bash_completion - programmable completion functions for bash 3.2+
 #
 #   Copyright © 2006-2008, Ian Macdonald <ian@caliban.org>
-#             © 2009-2010, Bash Completion Maintainers
+#             © 2009-2010-2016 Bash Completion Maintainers
 #                     <bash-completion-devel@lists.alioth.debian.org>
 #
 #   This program is free software; you can redistribute it and/or modify
